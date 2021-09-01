@@ -1,11 +1,14 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CustomNavbar from './components/CustomNavbar';
+import CustomJumbotron from './components/CustomJumbotron';
+
 
 function App() {
   return (
     <div className="App">
-      <CustomNavbar></CustomNavbar>
+      <CustomNavbar/>
+      <CustomJumbotron/>
 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
