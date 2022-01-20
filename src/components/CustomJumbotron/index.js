@@ -1,15 +1,17 @@
 import React from "react";
-import './style.css';
-import ResponsivePlayer from '../ResponsivePlayer'
+import './style.css'
 
-function CustomJumbotron() {
+function Jumbotron() {
     return (
-        <div
-        className="p-5 text-center bg-image customJumbotron"
-      >
-        <ResponsivePlayer/>
-      </div>
+        <div>
+            <div className="container mt-3">
+                <div className="jumbotron customJumbotron">
+                </div>
+            </div>
+            <br></br>
+            <br></br>
+        </div>
     )
 }
 
-export default CustomJumbotron;
+export default Jumbotron;

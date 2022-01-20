@@ -1,5 +1,7 @@
 .customJumbotron {
+    text-align: center;
     background-image: url("../../assets/codexBanner.png");
     background-size: cover;
-    background-position: center center;
+    color: white;
+    height: 30vh;
 }
