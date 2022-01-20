@@ -3,26 +3,26 @@ import './style.css'
 import Carousel from 'react-bootstrap/Carousel'
 import codexBanner from '../../assets/codexBanner.png'
 
-function Jumbotron() {
+function CustomCarousel() {
   return (
     <Carousel class="customCarousel">
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block carouselImage"
           src={codexBanner}
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block carouselImage"
           src={codexBanner}
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block carouselImage"
           src={codexBanner}
           alt="First slide"
         />
@@ -31,4 +31,4 @@ function Jumbotron() {
   )
 }
 
-export default Jumbotron;
+export default CustomCarousel;
