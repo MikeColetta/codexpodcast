@@ -1,17 +1,34 @@
 import React from "react";
 import './style.css'
+import Carousel from 'react-bootstrap/Carousel'
+import codexBanner from '../../assets/codexBanner.png'
 
 function Jumbotron() {
-    return (
-        <div>
-            <div className="container mt-3">
-                <div className="jumbotron customJumbotron">
-                </div>
-            </div>
-            <br></br>
-            <br></br>
-        </div>
-    )
+  return (
+    <Carousel class="customCarousel">
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={codexBanner}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={codexBanner}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={codexBanner}
+          alt="First slide"
+        />
+      </Carousel.Item>
+    </Carousel>
+  )
 }
 
 export default Jumbotron;
