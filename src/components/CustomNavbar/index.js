@@ -16,13 +16,12 @@ function CustomNavbar() {
                         height="30"
                         className="d-inline-block align-top navbarLogo"
                     />{' '}
-                    Codex: History of Video Games
                 </Navbar.Brand>
             </Link>
             <Link to="/About">
                 <Nav.Item>About</Nav.Item>
             </Link>
-            <Link to="/Contact">
+            <Link to="/Contact" class="ml-3">
                 <Nav.Item>Contact</Nav.Item>
             </Link>
         </Navbar>
