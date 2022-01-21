@@ -5,7 +5,7 @@ import codexBanner from '../../assets/codexBanner.png'
 
 function CustomCarousel() {
   return (
-    <Carousel class="customCarousel">
+    <Carousel className="mt-3 customCarousel">
       <Carousel.Item>
         <img
           className="d-block carouselImage"
