@@ -1,6 +1,7 @@
 import React from 'react';
 import CustomCarousel from '../components/CustomCarousel';
 import EpisodesContainer from '../components/EpisodesContainer';
+import Sources from '../components/Sources';
 import './style.css';
 import { Row, Container } from 'react-bootstrap';
 
@@ -11,9 +12,12 @@ class Homepage extends React.Component {
             <div>
                 <CustomCarousel />
                 <Container>
-                    <Row>
-                        <div className="col-10">
+                    <Row className="mt-3">
+                        <div className="col-8">
                             <EpisodesContainer />
+                        </div>
+                        <div className="col-4">
+                            <Sources />
                         </div>
                     </Row>
                 </Container>
