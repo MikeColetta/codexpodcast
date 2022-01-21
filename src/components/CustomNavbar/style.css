@@ -1,3 +1,13 @@
 .navbarLogo {
     margin-left: 1vw;
 }
+
+.navbarItem {
+    margin-left: 1vw;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.customNavbar {
+    padding-right: 1rem;
+}

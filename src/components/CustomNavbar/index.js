@@ -1,29 +1,38 @@
 import React from "react";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom"
 import "./style.css";
 import Logo from '../../assets/codexLogoSM.jpg'
 
 function CustomNavbar() {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Link to="/">
+        <Navbar className="customNavbar" expand="lg" bg="dark" variant="dark">
+            
                 <Navbar.Brand href="#home">
-                    <img
-                        alt="Codex Logo"
-                        src={Logo}
-                        width="30"
-                        height="30"
-                        className="d-inline-block align-top navbarLogo"
-                    />{' '}
+                    <Link to="/">
+                        <img
+                            alt="Codex Logo"
+                            src={Logo}
+                            width="60"
+                            height="60"
+                            className="d-inline-block align-top navbarLogo"
+                        />{' '}
+                    </Link>
                 </Navbar.Brand>
-            </Link>
-            <Link to="/About">
-                <Nav.Item>About</Nav.Item>
-            </Link>
-            <Link to="/Contact" class="ml-3">
-                <Nav.Item>Contact</Nav.Item>
-            </Link>
+                <Navbar.Toggle />
+                <Navbar.Collapse className="justify-content-end">
+                    <Navbar.Text>
+                        <Link to="/About" className="navbarItem">
+                            About
+                        </Link>
+                    </Navbar.Text>
+                    <Navbar.Text>
+                        <Link to="/Contact" className="navbarItem">
+                            Contact
+                        </Link>
+                    </Navbar.Text>
+                </Navbar.Collapse>
+            
         </Navbar>
     )
 }
