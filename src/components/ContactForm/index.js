@@ -7,7 +7,7 @@ function ContactForm() {
     function sendEmail(e) {
         e.preventDefault();
 
-        emailjs.sendForm('service_r80cnxr', 'huglife_podcast', e.target, 'user_Tvx8SytLWr4HHL2oOLaOD')
+        emailjs.sendForm('service_97vqa14', 'codex_podcast', e.target, 'user_15em2QL9mW3Hn6RUePoFM')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
