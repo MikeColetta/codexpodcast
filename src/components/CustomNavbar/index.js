@@ -6,7 +6,7 @@ import Logo from '../../assets/codexLogoSM.jpg'
 
 function CustomNavbar() {
     return (
-        <Navbar className="customNavbar" expand="lg" bg="dark" variant="dark">
+        <Navbar className="customNavbar" expand="lg" variant="dark">
             
                 <Navbar.Brand href="#home">
                     <Link to="/">
