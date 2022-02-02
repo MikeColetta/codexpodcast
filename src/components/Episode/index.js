@@ -20,7 +20,7 @@ const Episode = ({ currentEpisodes, loading }) => {
                                 <p>{result.isoDate}</p>
                             </Row>
                             <div>
-                                <audio controls="controls">
+                                <audio className="customPlayer" controls="controls">
                                     <source src={result.enclosure.url} />
                                 </audio>
                             </div>
