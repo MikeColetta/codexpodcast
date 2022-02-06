@@ -24,3 +24,11 @@
 .sourceAnchor:hover {
     color: white;
 }
+
+.bannerContainer {
+    text-align: center;
+}
+
+.bannerImage {
+    width: 75%;
+}
