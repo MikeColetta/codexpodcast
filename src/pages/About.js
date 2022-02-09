@@ -38,7 +38,7 @@ class About extends React.Component {
                     <Card className="mt-3 p-3 aboutCard">
                         <Row className="mt-3 aboutRow">
                             <Col md xl={4} className="aboutCol">
-                                <Image fluid='true' rounded='true' src={TylerHeadshot} alt="Mike Coletta" />
+                                <Image fluid='true' rounded='true' src={TylerHeadshot} alt="Tyler Ostby" />
                             </Col>
                             <Col md className="aboutCol">
                                 <h5>Tyler Ostby is one of the greatest humans alive and a J-Bird champion.</h5>
