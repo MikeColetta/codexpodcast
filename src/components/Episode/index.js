@@ -7,6 +7,22 @@ const Episode = ({ currentEpisodes, loading }) => {
         return <h1>Loading...</h1>
     }
 
+    function formatDate(time) {
+        let date = new Date(time);
+        let year = date.getFullYear();
+        let month = date.getMonth() + 1;
+        let dt = date.getDate();
+
+        if (dt < 10) {
+            dt = '0' + dt;
+        }
+        if (month < 10) {
+            month = '0' + month;
+        }
+
+        return(month + '-' + dt + '-' + year);
+    }
+
     return (
         <div>
             {currentEpisodes.map((result, index) => (
@@ -17,7 +33,7 @@ const Episode = ({ currentEpisodes, loading }) => {
                                 <h5 className="card-title">{result.title}</h5>
                             </Row>
                             <Row>
-                                <p>{result.isoDate}</p>
+                                <p>{formatDate(result.isoDate)}</p>
                             </Row>
                             <div>
                                 <audio className="customPlayer" controls="controls">
