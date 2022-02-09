@@ -18,17 +18,23 @@ class About extends React.Component {
                     </Row>
 
                     <Row className="p-3" style={{ color: 'white' }}>
-                        Mike Coletta and Tyler Ostby talk about the history of video games. They started from the beginning using the Ultimate History of Video Games
-                        Vol. 1 by Steven L. Kent. as a source. Since then they've branched off to cover the history of individual games, consoles, and moments in video
-                        game history! Other books covered include Masters of Doom by David Kushner and The Ultimate History of Video Games Vol. 2 by Steven L. Kent.
+                        <h5>Mike Coletta and Tyler Ostby talk about the history of video games. They started from the beginning using the Ultimate History of Video Games
+                            Vol. 1 by Steven L. Kent. as a source. Since then they've branched off to cover the history of individual games, consoles, and moments in video
+                            game history! Other books covered include Masters of Doom by David Kushner and The Ultimate History of Video Games Vol. 2 by Steven L. Kent.</h5>
                     </Row>
                     <Card className="mt-3 p-3 aboutCard">
-                        <Row className="mt-3 aboutRow">                  
+                        <Row className="mt-3 aboutRow">
                             <Col md className="aboutCol">
-                                <h5>Mike Coletta is a Seattle based comedian originally from Alaska. When not doing stand-up he loves video games, Dungeons and Dragons,
-                                and annoying his cat Delilah.
-                                Coletta has performed at The Bridgetown Comedy Festival, Emerald City Comicon, Treefort Fest, and Bumbershoot.
-                                He's also the co-host of the HugLife Podcast.</h5>
+                                <p>Mike Coletta is a Seattle based comedian originally from Alaska. When not doing stand-up he loves video games, Dungeons and Dragons,
+                                    and annoying his cat Delilah.
+                                    Coletta has performed at The Bridgetown Comedy Festival, Emerald City Comicon, Treefort Fest, and Bumbershoot.
+                                    He's also the co-host of the HugLife Podcast.</p>
+                                    <br></br>
+                                    <p>Favorite games:</p>
+                                    <ul>
+                                        <li>Destiny 2</li>
+                                        <li>Breath of the Wild</li>
+                                    </ul>
                             </Col>
                             <Col md xl={4} className="aboutCol">
                                 <Image className="aboutImage" fluid='true' rounded='true' src={MikeHeadshot} alt="Mike Coletta" />
@@ -41,7 +47,7 @@ class About extends React.Component {
                                 <Image fluid='true' rounded='true' src={TylerHeadshot} alt="Tyler Ostby" />
                             </Col>
                             <Col md className="aboutCol">
-                                <h5>Tyler Ostby is one of the greatest humans alive and a J-Bird champion.</h5>
+                                <p>Tyler Ostby is one of the greatest humans alive and a J-Bird champion.</p>
                             </Col>
                         </Row>
                     </Card>

@@ -15,3 +15,20 @@
 .aboutCard {
     background-color: #001133;
 }
+
+.sourceAnchor {
+    text-decoration: none;
+    color: white;
+}
+
+.sourceAnchor:hover {
+    color: white;
+}
+
+.bannerContainer {
+    text-align: center;
+}
+
+.bannerImage {
+    width: 75%;
+}

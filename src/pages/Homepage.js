@@ -1,16 +1,19 @@
 import React from 'react';
-import CustomCarousel from '../components/CustomCarousel';
 import EpisodesContainer from '../components/EpisodesContainer';
 import Sources from '../components/Sources';
 import './style.css';
-import { Row, Container, Col } from 'react-bootstrap';
+import { Row, Container, Col, Image } from 'react-bootstrap';
+import codexBanner from '../assets/codexBanner.png';
+
 
 class Homepage extends React.Component {
 
     render() {
         return (
             <div>
-                <CustomCarousel />
+                <Container className='bannerContainer'>
+                    <Image className='bannerImage' fluid='true' rounded='true' src={codexBanner} alt="Codex Podcast Banner"></Image>
+                </Container>
                 <Container>
                     <Row className="mt-3">
                         <Col md>
