@@ -17,7 +17,7 @@ class About extends React.Component {
                         </h3>
                     </Row>
 
-                    <Row className="p-3" style={{ color: 'white' }}>
+                    <Row className="p-3" style={{ color: '#FAF3DD' }}>
                         <h5>Mike Coletta and Tyler Ostby talk about the history of video games. They started from the beginning using the Ultimate History of Video Games
                             Vol. 1 by Steven L. Kent. as a source. Since then they've branched off to cover the history of individual games, consoles, and moments in video
                             game history! Other books covered include Masters of Doom by David Kushner and The Ultimate History of Video Games Vol. 2 by Steven L. Kent.</h5>

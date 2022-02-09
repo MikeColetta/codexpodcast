@@ -15,7 +15,7 @@ class Contact extends React.Component {
                     </h3>
                 </Row>
 
-                <Row style={{ color: 'white', justifyContent: 'center' }}>
+                <Row style={{ color: '#FAF3DD', justifyContent: 'center' }}>
                     Have a question for the show? Send us an email below or at codexhistorypodcast@gmail.com!
                 </Row>
                 </Container>

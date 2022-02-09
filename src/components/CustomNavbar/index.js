@@ -7,7 +7,6 @@ import Logo from '../../assets/codexLogoSM.jpg'
 function CustomNavbar() {
     return (
         <Navbar className="customNavbar" expand="lg" variant="dark">
-            
                 <Navbar.Brand href="#home">
                     <Link to="/">
                         <img
@@ -32,7 +31,6 @@ function CustomNavbar() {
                         </Link>
                     </Navbar.Text>
                 </Navbar.Collapse>
-            
         </Navbar>
     )
 }
