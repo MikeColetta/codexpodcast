@@ -13,10 +13,11 @@ function Sources() {
             <Card className="episodeCard">
                 <div className="card mt-2 mb-2 singleEpisode">
                     <Row>
-                        <div className="card-body">
+                        <div className="card-body sourceCard">
                             <Row>
                                 <a className="sourceAnchor" href="https://www.amazon.com/Ultimate-History-Video-Games-Pokemon/dp/0761536434/">
-                                    <h5 className="card-title">The Ultimate History of Video Games</h5></a>
+                                    <h5 className="card-title">The Ultimate History of Video Games: From Pong to Pokemon--
+                                        The Story Behind the Craze That Touched Our Lives and Changed the World</h5></a>
                             </Row>
                             <Row>
                                 <h6 className="card-title">by Steven L. Kent</h6>
@@ -29,10 +30,11 @@ function Sources() {
             <Card className="mt-3 episodeCard">
                 <div className="card mt-2 mb-2 singleEpisode">
                     <Row>
-                        <div className="card-body">
+                        <div className="card-body sourceCard">
                             <Row>
                                 <a className="sourceAnchor" href="https://www.amazon.com/Ultimate-History-Video-Games-Billion-Dollar/dp/1984825437/">
-                                    <h5 className="card-title">The Ultimate History of Video Games</h5></a>
+                                    <h5 className="card-title">The Ultimate History of Video Games, Volume 2:
+                                        Nintendo, Sony, Microsoft, and the Billion-Dollar Battle to Shape Modern Gaming</h5></a>
                             </Row>
                             <Row>
                                 <h6 className="card-title">by Steven L. Kent</h6>
@@ -45,7 +47,7 @@ function Sources() {
             <Card className="mt-3 episodeCard">
                 <div className="card mt-2 mb-2 singleEpisode">
                     <Row>
-                        <div className="card-body">
+                        <div className="card-body sourceCard">
                             <Row>
                                 <a className="sourceAnchor" href="https://www.amazon.com/Masters-Doom-Created-Transformed-Culture-ebook/dp/B000FBFNL0/">
                                     <h5 className="card-title">Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture </h5></a>
