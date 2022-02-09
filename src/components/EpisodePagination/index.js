@@ -1,5 +1,6 @@
 import React from 'react';
-import Pagination from 'react-bootstrap/Pagination'
+import Pagination from 'react-bootstrap/Pagination';
+import './style.css';
 
 
 const EpisodePagination = ({ episodesPerPage, totalEpisodes, paginate }) => {
@@ -11,9 +12,9 @@ const EpisodePagination = ({ episodesPerPage, totalEpisodes, paginate }) => {
 
 
     return (
-        <Pagination>
+        <Pagination className="paginationStyle">
             {pageNumbers.map(number => (
-                    <Pagination.Item onClick={() => paginate(number)}> 
+                    <Pagination.Item onClick={() => paginate(number)} key={number}> 
                             {number}
                     </Pagination.Item>
                 ))}
