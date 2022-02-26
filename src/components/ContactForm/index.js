@@ -1,15 +1,18 @@
 import emailjs from "emailjs-com";
-import React from 'react';
+import { useState } from 'react';
+import { Toast, ToastContainer } from "react-bootstrap";
 import './style.css';
 
 function ContactForm() {
-
+    const [showModal, setShowModal] = useState(false)
+    const toggleShow = () => setShowModal(!showModal);
     function sendEmail(e) {
         e.preventDefault();
 
         emailjs.sendForm('service_97vqa14', 'codex_podcast', e.target, 'user_15em2QL9mW3Hn6RUePoFM')
             .then((result) => {
                 console.log(result.text);
+                setShowModal(true);
             }, (error) => {
                 console.log(error.text);
             });
@@ -39,7 +42,19 @@ function ContactForm() {
                     </div>
                 </form>
             </div>
+
+            {showModal && (
+                <ToastContainer position='top-center'>
+                    <Toast show={showModal} onClose={toggleShow}>
+                        <Toast.Header>
+                            <strong className="me-auto">Codex Podast</strong>
+                        </Toast.Header>
+                        <Toast.Body>Hotcakes and Gangbusters, your message was sent!</Toast.Body>
+                    </Toast>
+                </ToastContainer>
+            )}
         </div>
+
     )
 }
 
