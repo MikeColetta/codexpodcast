@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d8aabef9.chunk.css",
-    "main.js": "/static/js/main.37b78f51.chunk.js",
-    "main.js.map": "/static/js/main.37b78f51.chunk.js.map",
+    "main.js": "/static/js/main.01f2272c.chunk.js",
+    "main.js.map": "/static/js/main.01f2272c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e75a5113.js",
     "runtime-main.js.map": "/static/js/runtime-main.e75a5113.js.map",
     "static/css/2.818011ed.chunk.css": "/static/css/2.818011ed.chunk.css",
@@ -19,7 +19,6 @@
     "static/media/TylerHeadshot.00b9bc0c.jpg": "/static/media/TylerHeadshot.00b9bc0c.jpg",
     "static/media/UHVGVol1.bd23ec57.jpg": "/static/media/UHVGVol1.bd23ec57.jpg",
     "static/media/UHVGVol2.fc87a1d3.jpg": "/static/media/UHVGVol2.fc87a1d3.jpg",
-    "static/media/codexBanner.12f349f7.png": "/static/media/codexBanner.12f349f7.png",
     "static/media/codexLogoSM.d68fdd18.jpg": "/static/media/codexLogoSM.d68fdd18.jpg"
   },
   "entrypoints": [
@@ -27,6 +26,6 @@
     "static/css/2.818011ed.chunk.css",
     "static/js/2.e4221a47.chunk.js",
     "static/css/main.d8aabef9.chunk.css",
-    "static/js/main.37b78f51.chunk.js"
+    "static/js/main.01f2272c.chunk.js"
   ]
 }
