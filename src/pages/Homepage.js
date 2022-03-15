@@ -3,7 +3,6 @@ import EpisodesContainer from '../components/EpisodesContainer';
 import Sources from '../components/Sources';
 import './style.css';
 import { Row, Container, Col, Image } from 'react-bootstrap';
-import codexBanner from '../assets/codexBanner.png';
 
 
 class Homepage extends React.Component {
@@ -12,7 +11,7 @@ class Homepage extends React.Component {
         return (
             <div>
                 <Container className='bannerContainer'>
-                    <Image className='bannerImage' fluid='true' rounded='true' src={codexBanner} alt="Codex Podcast Banner"></Image>
+                    <Image className='bannerImage' fluid='true' rounded='true' src="https://ik.imagekit.io/4lalrpwz0sy/codexBanner_gDp77JT5T.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647325128438" alt="Codex Podcast Banner"></Image>
                 </Container>
                 <Container>
                     <Row className="mt-3">
