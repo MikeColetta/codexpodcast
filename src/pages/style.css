@@ -36,3 +36,16 @@
 .sourceCard {
     text-align: center;
 }
+
+.iconCard {
+    justify-content: center;
+    text-align: center;
+    background-color: #285943;
+    max-width: 100px;
+    max-height: 125px;
+    padding: 0px;
+}
+
+.iconAnchor {
+    color: #FAF3DD;
+}
