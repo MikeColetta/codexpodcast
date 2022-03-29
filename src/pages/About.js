@@ -29,7 +29,7 @@ class About extends React.Component {
                                 <p>Mike Coletta is a Seattle based comedian originally from Alaska. When not doing stand-up he loves video games, Dungeons and Dragons,
                                     and annoying his cat Delilah.
                                     Coletta has performed at The Bridgetown Comedy Festival, Emerald City Comicon, Treefort Fest, and Bumbershoot.
-                                    He's also the co-host of the HugLife Podcast. You can find Mike on Twitter <a href='https://twitter.com/MeColetta' target='_blank' rel='noreferrer'>@MeColetta</a> and on his <a href='https://colettacomedy.com' target='_blank' rel='noreferrer'>website.</a></p>
+                                    He's also the co-host of the HugLife Podcast. You can find Mike on Twitter <a className='aboutAnchor' href='https://twitter.com/MeColetta' target='_blank' rel='noreferrer'>@MeColetta</a> and on his <a className='aboutAnchor' href='https://colettacomedy.com' target='_blank' rel='noreferrer'>website.</a></p>
                                 <br></br>
                                 <p>Favorite games:</p>
                                 <ul>
@@ -59,8 +59,8 @@ class About extends React.Component {
                             <Col md className="aboutCol">
                                 <p>Growing up, Tyler always loved games. From his Super Nintendo all the way to the latest high-end PC games, 
                                     he's played it all. Originally from Kennewick, WA (the dry, desert-y part of Washington), he now lives in Los Angeles
-                                     and works in the video game industry as a communications person. You can find him on Twitter <a href='https://twitter.com/SneakerElph' target='_blank' rel='noreferrer'>@SneakerElph</a> and occasionally
-                                      on YouTube: YouTube.com/tylerostby</p>
+                                     and works in the video game industry as a communications person. You can find him on Twitter <a className='aboutAnchor' href='https://twitter.com/SneakerElph' target='_blank' rel='noreferrer'>@SneakerElph</a> and occasionally
+                                      on <a className='aboutAnchor' href='https://www.youtube.com/tylerostby' target='_blank' rel='noreferrer'>YouTube</a></p>
                                 <br></br>
                                 <p>Favorite games:</p>
                                 <ul>

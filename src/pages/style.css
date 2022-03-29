@@ -46,6 +46,12 @@
     padding: 0px;
 }
 
-.iconAnchor {
+.aboutAnchor {
     color: #FAF3DD;
+    text-decoration: none;
+}
+
+.aboutAnchor:hover{
+    color: #FAF3DD;
+    text-decoration: underline;
 }
