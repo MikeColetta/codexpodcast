@@ -4,9 +4,6 @@
     float: right;
     max-height: 100%;
 }
-/* .aboutRow {
-    margin: auto;
-} */
 
 .aboutCol{
     color: #FAF3DD;
@@ -22,7 +19,7 @@
 }
 
 .sourceAnchor:hover {
-    color: white;
+    color: #FAF3DD;
 }
 
 .bannerContainer {
