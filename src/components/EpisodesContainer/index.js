@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import './style.css';
 import Episode from '../Episode';
 import EpisodePagination from '../EpisodePagination';
-import { Container, Card} from 'react-bootstrap';
+import { Container, Card } from 'react-bootstrap';
 
 let Parser = require('rss-parser');
 let parser = new Parser();
@@ -11,15 +11,14 @@ function EpisodesContainer() {
     const [episodes, setEpisodes] = useState([]);
     const [loading, setLoading] = useState(false);
     const [currentPage, setCurrentPage] = useState(1);
-    const [episodesPerPage] = useState(5);
+    const [episodesPerPage] = useState(10);
 
 
     //Get episodes from RSS feed
     async function getEpisodes() {
         setLoading(true);
         const feed = await parser.parseURL('https://feeds.libsyn.com/141866/rss');
-        setEpisodes(feed.items.slice(0, 50));
-        setLoading(false);
+        return feed;
     }
 
     //Get current episodes
@@ -28,8 +27,15 @@ function EpisodesContainer() {
     const currentEpisodes = episodes.slice(indexOfFirstEpisode, indexOfLastEpisode)
 
     useEffect(() => {
-        getEpisodes()
-    }, [])
+        let isMounted = true;               // note mutable flag
+        getEpisodes().then(feed => {
+            if (isMounted) {
+                setEpisodes(feed.items.slice(0, 50));
+                setLoading(false)    
+            };    // add conditional check
+        })
+        return () => { isMounted = false }; // cleanup toggles value, if unmounted
+    }, []);                               // adjust dependencies to your needs
 
     //Change page
     const paginate = (pageNumber) => setCurrentPage(pageNumber);
