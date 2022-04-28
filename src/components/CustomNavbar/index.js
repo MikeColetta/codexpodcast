@@ -18,7 +18,7 @@ function CustomNavbar() {
                     />{' '}
                 </Link>
             </Navbar.Brand>
-            <NavDropdown title="Menu" id="nav-dropdown" className='dropdown'>
+            <NavDropdown align="end" title="Menu" id="nav-dropdown" className='dropdown'>
                 <Link to="/About" className="navbarItem">
                     About
                 </Link>
