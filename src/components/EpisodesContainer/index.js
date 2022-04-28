@@ -11,7 +11,7 @@ function EpisodesContainer() {
     const [episodes, setEpisodes] = useState([]);
     const [loading, setLoading] = useState(false);
     const [currentPage, setCurrentPage] = useState(1);
-    const [episodesPerPage] = useState(10);
+    const [episodesPerPage] = useState(5);
 
 
     //Get episodes from RSS feed
@@ -30,7 +30,7 @@ function EpisodesContainer() {
         let isMounted = true;               // note mutable flag
         getEpisodes().then(feed => {
             if (isMounted) {
-                setEpisodes(feed.items.slice(0, 50));
+                setEpisodes(feed.items.slice(0, 25));
                 setLoading(false)    
             };    // add conditional check
         })
