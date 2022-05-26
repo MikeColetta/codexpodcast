@@ -2,10 +2,7 @@ import React, { useState, useEffect } from "react";
 import './style.css';
 import Episode from '../Episode';
 import EpisodePagination from '../EpisodePagination';
-import { Container, Card } from 'react-bootstrap';
-
-let Parser = require('rss-parser');
-let parser = new Parser();
+import { Container, Card } from 'react-bootstrap'
 
 function EpisodesContainer() {
     const [episodes, setEpisodes] = useState([]);
@@ -13,29 +10,30 @@ function EpisodesContainer() {
     const [currentPage, setCurrentPage] = useState(1);
     const [episodesPerPage] = useState(5);
 
-
-    //Get episodes from RSS feed
+    const RSS_URL = `https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Ffeeds.libsyn.com%2F141866%2Frss&api_key=${process.env.REACT_APP_RSS_2_JSON_KEY}`;
     async function getEpisodes() {
-        setLoading(true);
-        const feed = await parser.parseURL('https://feeds.libsyn.com/141866/rss');
-        return feed;
+        fetch(RSS_URL)
+        .then(response => response.json())
+        .then(data => {
+            setEpisodes(data.items)
+        });
     }
-
+    
     //Get current episodes
     const indexOfLastEpisode = currentPage * episodesPerPage;
     const indexOfFirstEpisode = indexOfLastEpisode - episodesPerPage;
     const currentEpisodes = episodes.slice(indexOfFirstEpisode, indexOfLastEpisode)
 
     useEffect(() => {
-        let isMounted = true;               // note mutable flag
-        getEpisodes().then(feed => {
+        let isMounted = true;
+        getEpisodes().then(() => {
             if (isMounted) {
-                setEpisodes(feed.items.slice(0, 25));
-                setLoading(false)    
-            };    // add conditional check
-        })
-        return () => { isMounted = false }; // cleanup toggles value, if unmounted
-    }, []);                               // adjust dependencies to your needs
+                setLoading(false);
+            }
+            return () => { isMounted = false }
+        });
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);                               
 
     //Change page
     const paginate = (pageNumber) => setCurrentPage(pageNumber);

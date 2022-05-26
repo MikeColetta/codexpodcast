@@ -33,16 +33,13 @@ const Episode = ({ currentEpisodes, loading }) => {
                                 <h5 className="card-title">{result.title}</h5>
                             </Row>
                             <Row>
-                                <p>{formatDate(result.isoDate)}</p>
+                                <p>{formatDate(result.pubDate)}</p>
                             </Row>
                             <div>
                                 <audio className="customPlayer" controls="controls">
-                                    <source src={result.enclosure.url} />
+                                    <source src={result.enclosure.link} />
                                 </audio>
                             </div>
-                            <Row>
-                                <p className="card-text">{result.contentSnippet}</p>
-                            </Row>
                         </div>
                     </Row>
                 </div>
