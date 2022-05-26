@@ -7,7 +7,6 @@ import Logo from '../../assets/codexLogoSM.jpg'
 function CustomNavbar() {
     return (
         <Navbar className="customNavbar" expand="lg" variant="dark">
-            <Navbar.Brand href="#home">
                 <Link to="/">
                     <img
                         alt="Codex Logo"
@@ -17,7 +16,6 @@ function CustomNavbar() {
                         className="d-inline-block align-top navbarLogo"
                     />{' '}
                 </Link>
-            </Navbar.Brand>
             <NavDropdown align="end" title="Menu" id="nav-dropdown" className='dropdown'>
                 <Link to="/About" className="navbarItem">
                     About
