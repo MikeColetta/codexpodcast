@@ -20,7 +20,7 @@ const Episode = ({ currentEpisodes, loading }) => {
             month = '0' + month;
         }
 
-        return (month + '/' + dt + '/' + year);
+        return month + '/' + dt + '/' + year;
     }
 
     return (
