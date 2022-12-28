@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.180c801a.chunk.css",
-    "main.js": "/static/js/main.25a43dfe.chunk.js",
-    "main.js.map": "/static/js/main.25a43dfe.chunk.js.map",
+    "main.js": "/static/js/main.2a9a7720.chunk.js",
+    "main.js.map": "/static/js/main.2a9a7720.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0e1e313d.js",
     "runtime-main.js.map": "/static/js/runtime-main.0e1e313d.js.map",
     "static/css/2.818011ed.chunk.css": "/static/css/2.818011ed.chunk.css",
@@ -14,6 +14,7 @@
     "static/css/2.818011ed.chunk.css.map": "/static/css/2.818011ed.chunk.css.map",
     "static/css/main.180c801a.chunk.css.map": "/static/css/main.180c801a.chunk.css.map",
     "static/js/2.7dab83f1.chunk.js.LICENSE.txt": "/static/js/2.7dab83f1.chunk.js.LICENSE.txt",
+    "static/media/ConsoleWars.e4a3a67f.jpg": "/static/media/ConsoleWars.e4a3a67f.jpg",
     "static/media/MastersofDoom.7449bc99.jpg": "/static/media/MastersofDoom.7449bc99.jpg",
     "static/media/MikeHeadshot.cbe0b0b9.jpg": "/static/media/MikeHeadshot.cbe0b0b9.jpg",
     "static/media/TylerHeadshot.00b9bc0c.jpg": "/static/media/TylerHeadshot.00b9bc0c.jpg",
@@ -26,6 +27,6 @@
     "static/css/2.818011ed.chunk.css",
     "static/js/2.7dab83f1.chunk.js",
     "static/css/main.180c801a.chunk.css",
-    "static/js/main.25a43dfe.chunk.js"
+    "static/js/main.2a9a7720.chunk.js"
   ]
 }
