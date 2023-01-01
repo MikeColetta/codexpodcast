@@ -14,7 +14,7 @@ function Sources() {
                     <Row>
                         <div className="card-body sourceCard">
                             <Row>
-                                <a className="sourceAnchor" href="https://www.amazon.com/Console-Wars-Nintendo-Defined-Generation/dp/0062276700">
+                                <a className="sourceAnchor" href="https://www.amazon.com/Console-Wars-Nintendo-Defined-Generation/dp/0062276700" target={'_blank'} rel={'noreferrer'}>
                                     <h5 className="card-title">Console Wars: Sega, Nintendo, and the Battle that Defined a Generation</h5></a>
                             </Row>
                             <Row>
@@ -30,7 +30,7 @@ function Sources() {
                     <Row>
                         <div className="card-body sourceCard">
                             <Row>
-                                <a className="sourceAnchor" href="https://www.amazon.com/Masters-Doom-Created-Transformed-Culture-ebook/dp/B000FBFNL0/">
+                                <a className="sourceAnchor" href="https://www.amazon.com/Masters-Doom-Created-Transformed-Culture-ebook/dp/B000FBFNL0/" target={'_blank'} rel={'noreferrer'}>
                                     <h5 className="card-title">Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture </h5></a>
                             </Row>
                             <Row>
@@ -46,7 +46,7 @@ function Sources() {
                     <Row>
                         <div className="card-body sourceCard">
                             <Row>
-                                <a className="sourceAnchor" href="https://www.amazon.com/Ultimate-History-Video-Games-Billion-Dollar/dp/1984825437/">
+                                <a className="sourceAnchor" href="https://www.amazon.com/Ultimate-History-Video-Games-Billion-Dollar/dp/1984825437/" target={'_blank'} rel={'noreferrer'}>
                                     <h5 className="card-title">The Ultimate History of Video Games, Volume 2:
                                         Nintendo, Sony, Microsoft, and the Billion-Dollar Battle to Shape Modern Gaming</h5></a>
                             </Row>
@@ -63,7 +63,7 @@ function Sources() {
                     <Row>
                         <div className="card-body sourceCard">
                             <Row>
-                                <a className="sourceAnchor" href="https://www.amazon.com/Ultimate-History-Video-Games-Pokemon/dp/0761536434/">
+                                <a className="sourceAnchor" href="https://www.amazon.com/Ultimate-History-Video-Games-Pokemon/dp/0761536434/" target={'_blank'} rel={'noreferrer'}>
                                     <h5 className="card-title">The Ultimate History of Video Games: From Pong to Pokemon--
                                         The Story Behind the Craze That Touched Our Lives and Changed the World</h5></a>
                             </Row>
