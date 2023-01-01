@@ -1,6 +1,7 @@
 import React from 'react';
 import EpisodesContainer from '../components/EpisodesContainer';
 import Sources from '../components/Sources';
+import SupportUs from '../components/SupportUs';
 import './style.css';
 import { Row, Container, Col, Image } from 'react-bootstrap';
 
@@ -17,6 +18,7 @@ class Homepage extends React.Component {
                     <Row className="mt-3">
                         <Col md>
                             <EpisodesContainer />
+                            <SupportUs />
                         </Col>
                         <Col md>
                             <Sources />
