@@ -20,7 +20,7 @@ function Sources() {
                             <Row>
                                 <h6 className="card-title">by Blake J. Harris</h6>
                             </Row>
-                            <Image fluid='true' rounded='true' src={ConsoleWars} alt="Tyler Ostby"></Image>
+                            <Image fluid='true' rounded='true' src={ConsoleWars} alt="Console Wars Cover"></Image>
                         </div>
                     </Row>
                 </div>
@@ -36,7 +36,7 @@ function Sources() {
                             <Row>
                                 <h6 className="card-title">by David Kushner</h6>
                             </Row>
-                            <Image fluid='true' rounded='true' src={MastersofDoom} alt="Tyler Ostby"></Image>
+                            <Image fluid='true' rounded='true' src={MastersofDoom} alt="Masters of Doom Cover"></Image>
                         </div>
                     </Row>
                 </div>
@@ -53,7 +53,7 @@ function Sources() {
                             <Row>
                                 <h6 className="card-title">by Steven L. Kent</h6>
                             </Row>
-                            <Image fluid='true' rounded='true' src={UHVGVol2} alt="Tyler Ostby"></Image>
+                            <Image fluid='true' rounded='true' src={UHVGVol2} alt="Ultimate History of Video Games Vol. 2 Cover"></Image>
                         </div>
                     </Row>
                 </div>
@@ -70,7 +70,7 @@ function Sources() {
                             <Row>
                                 <h6 className="card-title">by Steven L. Kent</h6>
                             </Row>
-                            <Image fluid='true' rounded='true' src={UHVGVol1} alt="Tyler Ostby"></Image>
+                            <Image fluid='true' rounded='true' src={UHVGVol1} alt="Ultimate History of Video Games Vol. 1 Cover"></Image>
                         </div>
                     </Row>
                 </div>
