@@ -17,6 +17,50 @@ function SupportUs() {
                     </Row>
                 </div>
             </Card>
+            <Card className="mt-3 episodeCard">
+                <div className="card mt-2 mb-2 singleEpisode">
+                    <Row>
+                        <div className="card-body sourceCard">
+                            <a className="sourceAnchor" href="https://trello.com/b/87D58Pen/game-log" target={'_blank'} rel={'noreferrer'}>
+                                <h3>Tyler's Game Log Trello Board</h3>
+                            </a>
+                        </div>
+                    </Row>
+                </div>
+            </Card>
+            <Card className="mt-3 episodeCard">
+                <div className="card mt-2 mb-2 singleEpisode">
+                    <Row>
+                        <div className="card-body sourceCard">
+                            <a className="sourceAnchor" href="https://trello.com/b/7e22f2jQ/game-log-aka-mikes-pile-of-shame" target={'_blank'} rel={'noreferrer'}>
+                                <h3>Mike's Game Log Trello Board</h3>
+                            </a>
+                        </div>
+                    </Row>
+                </div>
+            </Card>
+            <Card className="mt-3 episodeCard">
+                <div className="card mt-2 mb-2 singleEpisode">
+                    <Row>
+                        <div className="card-body sourceCard">
+                            <a className="sourceAnchor" href="https://twitter.com/SneakerElph" target={'_blank'} rel={'noreferrer'}>
+                                <h3>Tyler's Twitter</h3>
+                            </a>
+                        </div>
+                    </Row>
+                </div>
+            </Card>
+            <Card className="mt-3 episodeCard">
+                <div className="card mt-2 mb-2 singleEpisode">
+                    <Row>
+                        <div className="card-body sourceCard">
+                            <a className="sourceAnchor" href="https://twitter.com/MeColetta" target={'_blank'} rel={'noreferrer'}>
+                                <h3>Mike's Twitter</h3>
+                            </a>
+                        </div>
+                    </Row>
+                </div>
+            </Card>
         </Container>
     )
 }
