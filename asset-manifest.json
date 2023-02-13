@@ -1,33 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.180c801a.chunk.css",
-    "main.js": "/static/js/main.7efe5d7a.chunk.js",
-    "main.js.map": "/static/js/main.7efe5d7a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.cd5ad86a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.cd5ad86a.js.map",
-    "static/css/2.f26e749f.chunk.css": "/static/css/2.f26e749f.chunk.css",
-    "static/js/2.0665bcfb.chunk.js": "/static/js/2.0665bcfb.chunk.js",
-    "static/js/2.0665bcfb.chunk.js.map": "/static/js/2.0665bcfb.chunk.js.map",
-    "static/js/3.ff6f6a72.chunk.js": "/static/js/3.ff6f6a72.chunk.js",
-    "static/js/3.ff6f6a72.chunk.js.map": "/static/js/3.ff6f6a72.chunk.js.map",
+    "main.css": "/static/css/main.7823049d.css",
+    "main.js": "/static/js/main.6eefabd8.js",
+    "static/js/787.eb0c8fb7.chunk.js": "/static/js/787.eb0c8fb7.chunk.js",
+    "static/media/MastersofDoom.jpg": "/static/media/MastersofDoom.7449bc99a1f707277222.jpg",
+    "static/media/Discord_Logo_full.png": "/static/media/Discord_Logo_full.354ffd71a60966a0221a.png",
+    "static/media/codexLogoSM.jpg": "/static/media/codexLogoSM.d68fdd181c023f2e5be2.jpg",
+    "static/media/TylerHeadshot.jpg": "/static/media/TylerHeadshot.00b9bc0c87c89b061851.jpg",
+    "static/media/MikeHeadshot.jpg": "/static/media/MikeHeadshot.cbe0b0b97f46829a5683.jpg",
+    "static/media/UHVGVol2.jpg": "/static/media/UHVGVol2.fc87a1d3f55a89061a03.jpg",
+    "static/media/UHVGVol1.jpg": "/static/media/UHVGVol1.bd23ec5749cffa1e7ca5.jpg",
+    "static/media/ConsoleWars.jpg": "/static/media/ConsoleWars.e4a3a67f9f7322593433.jpg",
     "index.html": "/index.html",
-    "static/css/2.f26e749f.chunk.css.map": "/static/css/2.f26e749f.chunk.css.map",
-    "static/css/main.180c801a.chunk.css.map": "/static/css/main.180c801a.chunk.css.map",
-    "static/js/2.0665bcfb.chunk.js.LICENSE.txt": "/static/js/2.0665bcfb.chunk.js.LICENSE.txt",
-    "static/media/ConsoleWars.e4a3a67f.jpg": "/static/media/ConsoleWars.e4a3a67f.jpg",
-    "static/media/Discord_Logo_full.354ffd71.png": "/static/media/Discord_Logo_full.354ffd71.png",
-    "static/media/MastersofDoom.7449bc99.jpg": "/static/media/MastersofDoom.7449bc99.jpg",
-    "static/media/MikeHeadshot.cbe0b0b9.jpg": "/static/media/MikeHeadshot.cbe0b0b9.jpg",
-    "static/media/TylerHeadshot.00b9bc0c.jpg": "/static/media/TylerHeadshot.00b9bc0c.jpg",
-    "static/media/UHVGVol1.bd23ec57.jpg": "/static/media/UHVGVol1.bd23ec57.jpg",
-    "static/media/UHVGVol2.fc87a1d3.jpg": "/static/media/UHVGVol2.fc87a1d3.jpg",
-    "static/media/codexLogoSM.d68fdd18.jpg": "/static/media/codexLogoSM.d68fdd18.jpg"
+    "main.7823049d.css.map": "/static/css/main.7823049d.css.map",
+    "main.6eefabd8.js.map": "/static/js/main.6eefabd8.js.map",
+    "787.eb0c8fb7.chunk.js.map": "/static/js/787.eb0c8fb7.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.cd5ad86a.js",
-    "static/css/2.f26e749f.chunk.css",
-    "static/js/2.0665bcfb.chunk.js",
-    "static/css/main.180c801a.chunk.css",
-    "static/js/main.7efe5d7a.chunk.js"
+    "static/css/main.7823049d.css",
+    "static/js/main.6eefabd8.js"
   ]
 }
