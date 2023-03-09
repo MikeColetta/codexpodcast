@@ -7,15 +7,15 @@ import Logo from '../../assets/codexLogoSM.jpg'
 function CustomNavbar() {
     return (
         <Navbar className="customNavbar" expand="lg" variant="dark">
-                <Link to="/">
-                    <img
-                        alt="Codex Logo"
-                        src={Logo}
-                        width="60"
-                        height="60"
-                        className="d-inline-block align-top navbarLogo"
-                    />{' '}
-                </Link>
+            <Link to="/">
+                <img
+                    alt="Codex Logo"
+                    src={Logo}
+                    width="60"
+                    height="60"
+                    className="d-inline-block align-top navbarLogo"
+                />{' '}
+            </Link>
             <NavDropdown align="end" title="Menu" id="nav-dropdown" className='dropdown'>
                 <Link to="/About" className="navbarItem">
                     About
@@ -23,6 +23,10 @@ function CustomNavbar() {
                 <br></br>
                 <Link to="/Contact" className="navbarItem">
                     Contact
+                </Link>
+                <br></br>
+                <Link to="/codexpong" className="navbarItem">
+                    Codex Pong
                 </Link>
             </NavDropdown>
         </Navbar>
