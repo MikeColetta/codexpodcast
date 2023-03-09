@@ -14,7 +14,7 @@ class Contact extends React.Component {
                         </h3>
                     </Row>
                     <Row>
-                        <iframe frameborder="0" src="https://itch.io/embed-upload/7479314?color=333333" allowfullscreen="true" width="640" height="380">
+                        <iframe frameborder="0" src="https://itch.io/embed-upload/7479314?color=333333" allowfullscreen="true" width="640" height="380" title='codexpong'>
                             <a href="https://catamaran.itch.io/codex-pong">Play Codex Pong on itch.io</a>
                         </iframe>
                     </Row>
