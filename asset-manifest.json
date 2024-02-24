@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7823049d.css",
-    "main.js": "/static/js/main.3907aa4d.js",
+    "main.js": "/static/js/main.f300fcfa.js",
     "static/js/787.eb0c8fb7.chunk.js": "/static/js/787.eb0c8fb7.chunk.js",
     "static/media/MastersofDoom.jpg": "/static/media/MastersofDoom.7449bc99a1f707277222.jpg",
     "static/media/Discord_Logo_full.png": "/static/media/Discord_Logo_full.354ffd71a60966a0221a.png",
@@ -13,11 +13,11 @@
     "static/media/ConsoleWars.jpg": "/static/media/ConsoleWars.e4a3a67f9f7322593433.jpg",
     "index.html": "/index.html",
     "main.7823049d.css.map": "/static/css/main.7823049d.css.map",
-    "main.3907aa4d.js.map": "/static/js/main.3907aa4d.js.map",
+    "main.f300fcfa.js.map": "/static/js/main.f300fcfa.js.map",
     "787.eb0c8fb7.chunk.js.map": "/static/js/787.eb0c8fb7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7823049d.css",
-    "static/js/main.3907aa4d.js"
+    "static/js/main.f300fcfa.js"
   ]
 }
