@@ -21,6 +21,17 @@ function SupportUs() {
                 <div className="card mt-2 mb-2 singleEpisode">
                     <Row>
                         <div className="card-body sourceCard">
+                            <a className="sourceAnchor" href="https://www.instagram.com/codexhistorypodcast" target={'_blank'} rel={'noreferrer'}>
+                                <h3>Follow us on Instagram!</h3>
+                            </a>
+                        </div>
+                    </Row>
+                </div>
+            </Card>
+            <Card className="mt-3 episodeCard">
+                <div className="card mt-2 mb-2 singleEpisode">
+                    <Row>
+                        <div className="card-body sourceCard">
                             <a className="sourceAnchor" href="https://trello.com/b/87D58Pen/game-log" target={'_blank'} rel={'noreferrer'}>
                                 <h3>Tyler's Game Log Trello Board</h3>
                             </a>
