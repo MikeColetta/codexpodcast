@@ -61,17 +61,6 @@ function SupportUs() {
                     </Row>
                 </div>
             </Card>
-            <Card className="mt-3 episodeCard">
-                <div className="card mt-2 mb-2 singleEpisode">
-                    <Row>
-                        <div className="card-body sourceCard">
-                            <a className="sourceAnchor" href="https://twitter.com/MeColetta" target={'_blank'} rel={'noreferrer'}>
-                                <h3>Mike's Twitter</h3>
-                            </a>
-                        </div>
-                    </Row>
-                </div>
-            </Card>
         </Container>
     )
 }
