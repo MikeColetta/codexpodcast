@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './style.css';
 import Episode from '../Episode';
-import EpisodePagination from '../EpisodePagination';
+// import EpisodePagination from '../EpisodePagination';
 import { Container, Card } from 'react-bootstrap'
 
 function EpisodesContainer() {
@@ -36,7 +36,7 @@ function EpisodesContainer() {
     }, []);                               
 
     //Change page
-    const paginate = (pageNumber) => setCurrentPage(pageNumber);
+    // const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
     return (
         <Container className="episodeContainer">
@@ -47,11 +47,11 @@ function EpisodesContainer() {
                     loading={loading}
                     currentEpisodes={currentEpisodes}
                 />
-                <EpisodePagination className="paginationStyle"
+                {/* <EpisodePagination className="paginationStyle"
                     episodesPerPage={episodesPerPage}
                     totalEpisodes={episodes.length}
                     paginate={paginate}
-                />
+                /> */}
             </Card>
         </Container>
     )
