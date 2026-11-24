@@ -10,7 +10,7 @@ function EpisodesContainer() {
     const [currentPage, setCurrentPage] = useState(1);
     const [episodesPerPage] = useState(5);
 
-    const RSS_URL = `https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Ffeeds.libsyn.com%2F141866%2Frss&api_key=${process.env.REACT_APP_RSS_2_JSON_KEY}`;
+    const RSS_URL = `https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Ffeeds.megaphone.fm%2FNSR7251490907&api_key=${process.env.REACT_APP_RSS_2_JSON_KEY}`;
     async function getEpisodes() {
         fetch(RSS_URL)
         .then(response => response.json())
